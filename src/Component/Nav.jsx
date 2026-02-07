@@ -1,7 +1,8 @@
 import React from 'react'
 import logo from '../assets/logo.png'
+import { FaSearch } from "react-icons/fa";
 
-const Nav = () => {
+function Nav  () {
   return (
     <div>
       <div className='w-[100vw] min-h-[80px]  border-b-[1px] border-[#dcdcdc] px-[40px]'>
@@ -9,7 +10,7 @@ const Nav = () => {
       </div>
       <div>
         <input type="text" />
-        <button></button>
+        <button><FaSearch /></button>
       </div>
     </div>
   )
